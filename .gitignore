@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+
+# Environment files and credentials
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# SQLite database and scheduler storage
+data/
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
